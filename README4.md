@@ -98,17 +98,17 @@ Model choice prioritized **interpretability**, non-linear pattern capture, and a
 **Regression (Predicting Delay Minutes)**
 - Mean Absolute Error (MAE): 3.20 minutes
 - R² Score: -0.0426
-
-Interpretation  
+ 
 Minute-level prediction is unstable because severe disruptions are often driven by external factors not present in the dataset (weather events, infrastructure incidents, technical failures). The low MAE reflects typical small delays, but the negative R² highlights the limits of predicting exact delay duration in a complex network.
 
 **Classification (Predicting Critical Delays > 5 minutes)**
 - Accuracy: 0.82
 - On-time precision (Class 0): 0.86
 - Critical delay recall (Class 1): 0.27
-
-Interpretation  
+ 
 The model is strong at confirming lower-risk situations (useful for passenger trust and baseline planning). Critical delays remain harder to capture due to unobserved drivers and the nature of rare disruptions. This is a data limitation more than a modeling limitation, and it is a realistic finding for operational systems.
+
+![Feature Importance – Critical Delay Prediction](Images/6.Feature Importance.png)
 
 ---
 
