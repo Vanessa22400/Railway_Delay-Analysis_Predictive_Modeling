@@ -1,5 +1,10 @@
-# Railway Delay Analysis – Tübingen (Germany)
-From commuter experience to data-driven insights on punctuality, risk and reliability in the Deutsche Bahn network
+
+# Railway Delay Analysis - Tübingen (Germany)
+Data-driven insights into railway punctuality, delay risk, and passenger experience in the German railway network (Deutsche Bahn).
+
+Dataset: 12 months of railway operations (24,760 records)  
+Techniques: EDA, hypothesis testing, Random Forest models  
+Key Result: 82% accuracy in predicting critical delays
 
 ---
 
@@ -32,23 +37,17 @@ How reliable is the railway service at Tübingen Hbf, and which operational fact
 
 ## Methodology
 
-1. Data Cleaning and Preprocessing  
-   Handling missing values, outliers, inconsistencies and data normalization when required.
+1. **Data Cleaning and Preprocessing**: Handling missing values, outliers, inconsistencies and data normalization when required.
 
-2. Exploratory Data Analysis (EDA)  
-   Identification of patterns, correlations, structural behaviors and potential risks.
+2. **Exploratory Data Analysis (EDA)**: Identification of patterns, correlations, structural behaviors and potential risks.
 
-3. Hypothesis Testing  
-   Statistical testing of recurring patterns (weekday effects, service-type differences).
+3. **Hypothesis Testing**: Statistical testing of recurring patterns (weekday effects, service-type differences).
 
-4. Feature Engineering  
-   Creation of variables based on domain logic and contextual interpretation.
+4. **Feature Engineering**: Creation of variables based on domain logic and contextual interpretation.
 
-5. Model Selection and Validation  
-   Comparison of models using cross-validation and performance metrics.
+5. **Model Selection and Validation**: Comparison of models using cross-validation and performance metrics.
 
-6. Insight Generation  
-   Translation of statistical results into operational or strategic recommendations.
+6. **Insight Generation**: Translation of statistical results into operational or strategic recommendations.
 
 ---
 
@@ -150,18 +149,16 @@ Track stability beyond averages, using metrics such as delay incidence, cancella
 - Create a dashboard for monitoring weekday and route-level reliability trends
 
 ---
-
 ## Repository Structure
+
+```
+.
 ├── data
-
 ├── notebooks
-
 ├── images
-
 ├── requirements.txt
-
-└── README.md  
-
+└── README.md
+```
 ---
 
 ## Strategic Perspective 
