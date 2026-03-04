@@ -81,7 +81,7 @@ These findings guided formal hypothesis testing and the modeling strategy.
 
 ![Feature Importance](Images/2.Average_Train_Delay_Weekday.png)
 
-*Average delay by weekday: Mondays show consistently higher delays.*
+**Figure**: Average delay by weekday: Mondays show consistently higher delays.
 
 ---
 
