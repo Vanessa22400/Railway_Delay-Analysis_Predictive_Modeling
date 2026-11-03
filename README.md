@@ -90,10 +90,6 @@ The exploratory analysis revealed consistent patterns with direct operational im
 
 These findings guided formal hypothesis testing and the modeling strategy.
 
-![Feature Importance](Images/2.Average_Train_Delay_Weekday.png)
-
-**Figure**: Average delay by weekday: Mondays show consistently higher delays.
-
 
 ### Selected Visualizations
 
@@ -139,7 +135,7 @@ From a business perspective, the model remains valuable for identifying low-risk
 
 ![Feature Importance](Images/feature_importance.png)
 
-*Feature Importante: 'month' is the most predictive factor of a critical delay.*  
+*Feature Importance: 'month' is the most predictive factor of a critical delay.*  
 Feature importance analysis indicates that month, day_of_week, and destination are the most relevant predictors, reinforcing the importance of seasonal patterns and structural route constraints.
 
 
