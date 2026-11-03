@@ -133,11 +133,6 @@ The model is strong at confirming lower-risk situations (useful for passenger tr
 This limitation reflects the intrinsic difficulty of predicting rare, high-impact events in complex systems.
 From a business perspective, the model remains valuable for identifying low-risk scenarios with high confidence, supporting planning and improving passenger communication.
 
-![Feature Importance](Images/feature_importance.png)
-
-*Feature Importance: 'month' is the most predictive factor of a critical delay.*  
-Feature importance analysis indicates that month, day_of_week, and destination are the most relevant predictors, reinforcing the importance of seasonal patterns and structural route constraints.
-
 
 ![Critical Delay Feature Importance](Images/feature_importance.png)
 
