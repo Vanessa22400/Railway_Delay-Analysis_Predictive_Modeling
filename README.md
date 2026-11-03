@@ -9,6 +9,10 @@
 [View the next project](https://github.com/Vanessa22400/Railway_Delay_Advanced_Analysis_DB
 )
 
+![Railway Delay Analysis - Visual Summary](Images/Railway_Delay_Cover_Real_Notebook_Charts.png)
+
+*Visual summary using charts from the original Python analysis.*
+
 ---
 
 ## Business Context
@@ -90,6 +94,16 @@ These findings guided formal hypothesis testing and the modeling strategy.
 
 **Figure**: Average delay by weekday: Mondays show consistently higher delays.
 
+
+### Selected Visualizations
+
+| Average Delay by Weekday | Distribution of Train Delays |
+|---|---|
+| ![Average Delay by Weekday](Images/2.Average_Train_Delay_Weekday.png) | ![Distribution of Train Delays](Images/1.Distribution%20of%20Train%20Delays.png) |
+
+The analysis shows higher average delays on Mondays and a strongly right-skewed distribution, with most delays remaining relatively short and a smaller number of severe disruptions.
+
+
 ---
 
 ## Modeling Approach
@@ -127,6 +141,12 @@ From a business perspective, the model remains valuable for identifying low-risk
 
 *Feature Importante: 'month' is the most predictive factor of a critical delay.*  
 Feature importance analysis indicates that month, day_of_week, and destination are the most relevant predictors, reinforcing the importance of seasonal patterns and structural route constraints.
+
+
+![Critical Delay Feature Importance](Images/feature_importance.png)
+
+*Feature importance from the Random Forest classification model. Month, day of week, and destination contributed most to the model's predictions.*
+
 
 ---
 
